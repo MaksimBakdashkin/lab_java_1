@@ -1,0 +1,15 @@
+
+import java.util.Scanner;
+public class helloWorld{
+
+     public static void main(String []args){
+         int a;
+        String b="Maksim Bykashkin";
+        Scanner input = new Scanner(System.in);
+        String name = input.nextLine();
+        // System.out.println(a);
+          System.out.println("b = " + b);
+          System.out.println("Name maxim - " + name);
+          // System.out.println("Hello, World!");
+     }
+}
